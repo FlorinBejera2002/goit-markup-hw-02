@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #212121;
+}
+.link {
+    text-decoration: none;
+
+}
+
+.unstyled-list {
+    list-style: none;
+}
+
+.logo-portfolio {
+    text-decoration: none;
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-portfolio::after {
+    content: "Studio";
+    color: #000000;
+}
+
+.header-portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+#selected-color:hover{
+    color: #2196F3;
+}
+
