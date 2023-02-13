@@ -1,6 +1,16 @@
 body {
+    background-color: #E5E5E5;
+    ;
     font-family: 'Roboto' sans-serif;
-    font-style: normal;
+    color: #212121;
+    --hover-color: #2196F3;
+    --focus-color: #FFFFFF;
+    --border-color: #EEEEEE;
+    --logo-color: #000000;
+    --text-contact: #757575;
+    --contact-text-footer: rgba(255, 255, 255, 0.6);
+    --footer-background: #2F303A;
+    --background-section: #F5F4FA;
 }
 
 .link {
@@ -15,10 +25,9 @@ body {
 /* header*/
 
 .logo-portfolio-header {
-    font-family: 'Raleway' sans-serif;
-    font-style: normal;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--hover-color);
+    font-family: 'Raleway' sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -27,42 +36,49 @@ body {
 
 .logo-portfolio-header:after {
     content: "Studio";
-    color: #000000;
+    color: var(--logo-color);
 }
 
 .header-portfolio {
+    border: 1px solid var(--background-section);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    background: var(--focus-color);
 }
 
 .navigation-list li a {
-    color: #000000;
+    color: var(--logo-color);
 }
 
-#portfolioHtmlLink {
-    color: #2196F3;
+#portfolio-link-navbar{
+    color: var(--hover-color);
 }
 
 .right-navigation-list li a {
-    color: #757575;
+    color: var(--text-contact);
 }
-
+ 
+.right-navigation-list li a:hover ,
+.right-navigation-list li a:focus{
+   color: var(--hover-color);
+}
 /* main*/
 .first-section-portfolio ul li button {
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
     letter-spacing: 0.03em;
-    background: #F5F4FA;
+    background: var(--background-section);
     border-radius: 4px;
     border: none;
 }
 
 .first-section-portfolio ul li button:hover {
-    background: #2196F3;
+    color: var(--focus-color);
+    background: var(--hover-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
@@ -70,8 +86,8 @@ body {
 .images-section ul li {
     width: 370px;
     height: 404px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: var(--focus-color);
+    border: 1px solid var(--border-color);
     box-sizing: border-box;
 }
 
@@ -88,24 +104,22 @@ body {
 }
 
 .title-portfolio li p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-contact);
 }
 
 /*footer*/
 
 .footer-portfolio {
-    background: #2F303A;
+    background: var(--footer-background);
 }
 
 .logo-portfolio-footer {
     font-family: 'Raleway' sans-serif;
-    font-style: normal;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--hover-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -115,7 +129,7 @@ body {
 
 .logo-portfolio-footer::after {
     content: "Studio";
-    color: #FFFFFF;
+    color: var(--focus-color);
 }
 
 .address-portfolio {
@@ -125,11 +139,14 @@ body {
     letter-spacing: 0.03em;
 
 }
-
+.address-portfolio ul li a:hover ,
+.address-portfolio ul li a:focus {
+    color: var(--hover-color);
+}
 .location-portfolio {
-    color: #FFFFFF;
+    color: var(--focus-color);
 }
 
 .contact-portfolio {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--contact-text-footer);
 }
