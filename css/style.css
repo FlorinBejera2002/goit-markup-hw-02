@@ -1,6 +1,5 @@
 body {
     background-color: #E5E5E5;
-    ;
     font-family: 'Roboto' sans-serif;
     color: #212121;
     --hover-color: #2196F3;
@@ -52,7 +51,7 @@ body {
     color: var(--logo-color);
 }
 
-#portfolio-link-navbar{
+.navigation-list li a:hover {
     color: var(--hover-color);
 }
 
@@ -114,10 +113,12 @@ body {
 
 .footer-portfolio {
     background: var(--footer-background);
+
 }
 
 .logo-portfolio-footer {
     font-family: 'Raleway' sans-serif;
+    font-style: normal;
     text-decoration: none;
     color: var(--hover-color);
     font-weight: 700;
