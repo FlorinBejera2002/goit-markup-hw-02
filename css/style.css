@@ -30,7 +30,7 @@ body {
     font-family: 'Raleway' sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
 }
 
@@ -43,7 +43,7 @@ body {
     border: 1px solid var(--background-section);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     background: var(--focus-color);
 }
@@ -69,7 +69,7 @@ body {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,62;
     letter-spacing: 0.03em;
     background: var(--background-section);
     border-radius: 4px;
@@ -99,13 +99,13 @@ body {
 .title-portfolio li h3 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .title-portfolio li p {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,66;
     letter-spacing: 0.03em;
     color: var(--text-contact);
 }
@@ -122,7 +122,7 @@ body {
     color: var(--hover-color);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
 
 }
@@ -135,7 +135,7 @@ body {
 .address-portfolio {
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.03em;
 
 }
