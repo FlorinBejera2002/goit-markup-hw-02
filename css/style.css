@@ -1,3 +1,4 @@
+/*Variables*/
 body {
     background-color: #E5E5E5;
     font-family: 'Roboto' sans-serif;
@@ -11,7 +12,7 @@ body {
     --footer-background: #2F303A;
     --background-section: #F5F4FA;
 }
-
+/*GLobal*/
 .link {
     text-decoration: none;
 
