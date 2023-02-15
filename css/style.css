@@ -64,7 +64,9 @@ body {
 .right-navigation-list li a:focus{
    color: var(--hover-color);
 }
+
 /* main*/
+
 .first-section-portfolio ul li button {
     cursor: pointer;
     font-weight: 500;
